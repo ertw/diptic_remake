@@ -1,17 +1,30 @@
-h1 {
+body {
+  font-family: sans-serif;
 }
 
-h4 {
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-li {
-  list-style-type: none;
+nav ul {
+  text-align: center;
+  background-color: grey;
+  width: 100%;
 }
 
-div {
+nav li {
+  display: inline-block;
 }
 
-iframe {
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: red;
 }
 
 iframe {
