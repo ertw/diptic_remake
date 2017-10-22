@@ -19,31 +19,30 @@ ul {
   padding: 0;
 }
 
-nav ul {
+.circle li {
+  list-style: circle;
+  margin-left: 1em;
+}
+
+nav {
   text-align: center;
   background: linear-gradient(#2c3541, #1f252e, black);
   width: 100%;
 }
 
-nav li {
+nav a.active-page {
+  background: linear-gradient(#fff, #eee, #ccc);
+  color: black;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
   display: inline-block;
   padding: 1em;
 }
 
-nav li.active-page {
-  background: linear-gradient(#fff, #eee, #ccc);
-}
-
-nav li.active-page a {
-  color: black;
-}
-
-nav li a {
-  color: white;
-  text-decoration: none;
-}
-
-nav li a:hover {
+nav a:hover {
   color: #ea3324;
 }
 
@@ -53,15 +52,26 @@ iframe {
   width: 100%;
 }
 
-.left {
+.float-left {
   float: left;
+}
+
+.float-right {
+  margin: 0 auto;
+  float: right;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 div.example-screens {
   margin-right: 2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
-div.with-max-width {
+.with-max-width {
   max-width: 800px;
 }
 
@@ -83,6 +93,17 @@ div.video {
   background: #f4eb6c;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.hero {
+  background: linear-gradient(#fff, #eee, #ccc);
+}
+
+.borderized {
+  border: 3px solid red;
+}
+
+.hero div {
 }
 
 footer {
