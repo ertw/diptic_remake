@@ -1,0 +1,7 @@
+# set this a root config for project
+root = true;
+# apply to all files
+[*]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
