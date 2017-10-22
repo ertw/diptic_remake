@@ -1,8 +1,16 @@
+/* global styles
+----------------------------------------------------------------------------- */
 body {
   font-family: Futura, Verdana, Sans-Serif;
   font-weight: lighter;
   color: #222;
   margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -13,43 +21,23 @@ mark {
   background: #e7e8e9;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.circle li {
-  list-style: circle;
-  margin-left: 1em;
-}
-
 nav {
   text-align: center;
   background: linear-gradient(#2c3541, #1f252e, black);
   width: 100%;
 }
 
-nav a.active-page {
-  background: linear-gradient(#fff, #eee, #ccc);
-  color: black;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  padding: 1em;
-}
-
-nav a:hover {
-  color: #ea3324;
-}
-
 iframe {
   display: block;
   margin: auto;
   width: 100%;
+}
+
+footer {
+  color: white;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .float-left {
@@ -63,16 +51,6 @@ iframe {
 
 .align-middle {
   vertical-align: middle;
-}
-
-div.example-screens {
-  margin-right: 2em;
-  margin-bottom: 2em;
-  margin-top: 2em;
-}
-
-.with-max-width {
-  max-width: 800px;
 }
 
 .centered {
@@ -89,28 +67,8 @@ div.example-screens {
   padding-bottom: 1em;
 }
 
-div.video {
-  background: #f4eb6c;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
-.hero {
-  background: linear-gradient(#fff, #eee, #ccc);
-}
-
 .borderized {
   border: 3px solid red;
-}
-
-.hero div {
-}
-
-footer {
-  color: white;
-  padding: 0;
-  margin: 0;
-  border: 0;
 }
 
 .yellow {
@@ -120,3 +78,51 @@ footer {
 .blue {
   background: #333d49;
 }
+
+.with-max-width {
+  max-width: 800px;
+}
+
+/* header
+----------------------------------------------------------------------------- */
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em;
+}
+
+nav a:hover {
+  color: #ea3324;
+}
+
+nav a.active-page {
+  background: linear-gradient(#fff, #eee, #ccc);
+  color: black;
+}
+
+/* main
+----------------------------------------------------------------------------- */
+.video {
+  background: #f4eb6c;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.circle li {
+  list-style: circle;
+  margin-left: 1em;
+}
+
+.example-screens {
+  margin-right: 2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.hero {
+  background: linear-gradient(#fff, #eee, #ccc);
+}
+
+/* footer
+----------------------------------------------------------------------------- */
