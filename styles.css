@@ -9,10 +9,6 @@ p {
   text-align: justify;
 }
 
-footer {
-  margin: 2em;
-}
-
 mark {
   background: #e7e8e9;
 }
@@ -25,7 +21,6 @@ ul {
 
 nav ul {
   text-align: center;
-  background: #2c3541;
   background: linear-gradient(#2c3541, #1f252e, black);
   width: 100%;
 }
@@ -58,11 +53,8 @@ iframe {
   width: 100%;
 }
 
-div.left {
-  border: 3px solid red;
-  display: inline-block;
-  max-width: 50%;
-  overflow: hidden;
+.left {
+  float: left;
 }
 
 div.example-screens {
@@ -73,13 +65,13 @@ div.with-max-width {
   max-width: 800px;
 }
 
-div.centered {
+.centered {
   margin: auto;
   padding-left: 1em;
   padding-right: 1em;
 }
 
-div.full-width-container {
+.full-width-container {
   width: 100%;
   margin: 0;
   border: 0;
@@ -94,14 +86,16 @@ div.video {
 }
 
 footer {
-  background: #333d49;
   color: white;
   padding: 0;
   margin: 0;
   border: 0;
 }
 
-section {
-  width: 100%;
+.yellow {
   background: #f4eb6c;
+}
+
+.blue {
+  background: #333d49;
 }
