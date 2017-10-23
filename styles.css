@@ -99,6 +99,15 @@ footer {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.max-width-500 {
+  max-width: 500px;
 }
 
 /* header
